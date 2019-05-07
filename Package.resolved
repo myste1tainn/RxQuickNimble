@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "e9d769113660769a4d9dd3afb855562c0b7ae7b0",
+          "version": "7.3.4"
+        }
+      },
+      {
+        "package": "Quick",
+        "repositoryURL": "https://github.com/quick/Quick.git",
+        "state": {
+          "branch": null,
+          "revision": "f2b5a06440ea87eba1a167cab37bf6496646c52e",
+          "version": "1.3.4"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift",
+        "state": {
+          "branch": null,
+          "revision": "cce95dd704bc08cd3d69c087a05a6fc3118e2722",
+          "version": "4.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
