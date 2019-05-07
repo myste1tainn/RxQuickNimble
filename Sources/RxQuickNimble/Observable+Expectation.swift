@@ -6,8 +6,8 @@ import Foundation
 import RxSwift
 import Nimble
 
-extension Observable {
-  func expectation(timeout: TimeInterval = 9999, bag: DisposeBag, _ assertion: @escaping (E) -> Void) {
+public extension Observable {
+  public func expectation(timeout: TimeInterval = 9999, bag: DisposeBag, _ assertion: @escaping (E) -> Void) {
     waitUntil(timeout: timeout) { done in
       self.subscribe(
             onNext: { assertion($0) },
@@ -18,7 +18,7 @@ extension Observable {
     }
   }
   
-  func expectation(timeout: TimeInterval = 9999,
+  public func expectation(timeout: TimeInterval = 9999,
                    bag: DisposeBag,
                    _ assertion: @escaping (E) -> Void,
                    _ errorAssertion: @escaping (Error) -> Void) {
